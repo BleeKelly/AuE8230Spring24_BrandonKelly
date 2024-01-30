@@ -8,6 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/devel/lib:$LD_LIBRARY_PATH"
 export PWD='/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src:$ROS_PACKAGE_PATH"
