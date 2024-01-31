@@ -476,6 +476,12 @@ turtle_circle_BINARY_DIR:STATIC=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_Br
 //Value Computed by CMake
 turtle_circle_SOURCE_DIR:STATIC=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_circle
 
+//Value Computed by CMake
+turtle_square_openloop_BINARY_DIR:STATIC=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop
+
+//Value Computed by CMake
+turtle_square_openloop_SOURCE_DIR:STATIC=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_square_openloop
+
 
 ########################
 # INTERNAL cache entries
@@ -624,7 +630,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

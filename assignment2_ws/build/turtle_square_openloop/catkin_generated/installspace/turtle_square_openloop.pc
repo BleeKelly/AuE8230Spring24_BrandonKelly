@@ -1,0 +1,8 @@
+prefix=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/install
+
+Name: turtle_square_openloop
+Description: Description of turtle_square_openloop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

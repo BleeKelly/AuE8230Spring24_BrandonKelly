@@ -55,12 +55,14 @@ CMAKE_BINARY_DIR = /home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/as
 # The main recursive "all" target.
 all: gtest/all
 all: turtle_circle/all
+all: turtle_square_openloop/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: turtle_circle/preinstall
+preinstall: turtle_square_openloop/preinstall
 
 .PHONY : preinstall
 
@@ -72,6 +74,7 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: turtle_circle/clean
+clean: turtle_square_openloop/clean
 
 .PHONY : clean
 
@@ -158,6 +161,24 @@ turtle_circle/clean: turtle_circle/CMakeFiles/std_msgs_generate_messages_nodejs.
 turtle_circle/clean: turtle_circle/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : turtle_circle/clean
+
+#=============================================================================
+# Directory level rules for directory turtle_square_openloop
+
+# Recursive "all" directory target.
+turtle_square_openloop/all:
+
+.PHONY : turtle_square_openloop/all
+
+# Recursive "preinstall" directory target.
+turtle_square_openloop/preinstall:
+
+.PHONY : turtle_square_openloop/preinstall
+
+# Recursive "clean" directory target.
+turtle_square_openloop/clean:
+
+.PHONY : turtle_square_openloop/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

@@ -15,9 +15,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "turtle_circle/catkin_generated/ordered_paths.cmake"
   "turtle_circle/catkin_generated/package.cmake"
+  "turtle_square_openloop/catkin_generated/ordered_paths.cmake"
+  "turtle_square_openloop/catkin_generated/package.cmake"
   "/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/CMakeLists.txt"
   "/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_circle/CMakeLists.txt"
   "/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_circle/package.xml"
+  "/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_square_openloop/CMakeLists.txt"
+  "/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/src/turtle_square_openloop/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -171,6 +175,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "turtle_circle/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "turtle_square_openloop/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

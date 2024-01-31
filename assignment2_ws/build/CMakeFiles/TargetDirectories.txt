@@ -52,3 +52,10 @@
 /home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_circle/CMakeFiles/test.dir
 /home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_circle/CMakeFiles/rebuild_cache.dir
 /home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_circle/CMakeFiles/edit_cache.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/install/strip.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/install/local.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/install.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/list_install_components.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/rebuild_cache.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/edit_cache.dir
+/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/build/turtle_square_openloop/CMakeFiles/test.dir
