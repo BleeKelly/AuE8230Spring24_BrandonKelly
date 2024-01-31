@@ -6,13 +6,13 @@ import math
 line_speed = 0.2
 turn_speed = 0.2
 distance_forward = 2
-turn_angle = math.pi
+turn_angle = (math.pi/2)
 #Create move and rotate functions
 
 def mov():
     # Creates new node
     rospy.init_node('turtle_square_openloop', anonymous =True)
-    velocity_publisher = rospy.Publisher('turtle/cmd_vel',Twist,queue_size=10)
+    velocity_publisher = rospy.Publisher('/turtle1/cmd_vel',Twist,queue_size=10)
     vel_msg = Twist()
     #Forward Movement
     vel_msg.linear.x=line_speed
@@ -25,7 +25,9 @@ def mov():
     #Publish Velocity 
     t0 = rospy.Time.now().to_sec()
     current_distance = 0 
-    while(current_distance < distance_forward):
+    while(current_distance < distance_forward and not rospy.is_shutdown()):
+        #print(current_distance)
+        print(vel_msg)
         t1 = rospy.Time.now().to_sec()
         current_distance = line_speed * (t1-t0)
         velocity_publisher.publish(vel_msg)
@@ -34,7 +36,7 @@ def mov():
 
 def rot():
     rospy.init_node('turtle_square_openloop',anonymous = True)
-    velocity_publisher = rospy.Publisher('turtle/cmd_vel',Twist,queue_size = 10)
+    velocity_publisher = rospy.Publisher('/turtle1/cmd_vel',Twist,queue_size = 10)
     vel_msg = Twist()
     #Halt Forward Movement
     vel_msg.linear.x = 0 
@@ -47,7 +49,7 @@ def rot():
     #Publish Velocity
     current_angle = 0 
     t0 = rospy.Time.now().to_sec()
-    while (current_angle < turn_angle):
+    while (current_angle < turn_angle and not rospy.is_shutdown()):
         t1 = rospy.Time.now().to_sec()
         current_angle = turn_speed * (t1-t0)
         velocity_publisher.publish(vel_msg)
@@ -56,9 +58,12 @@ def rot():
 
 #Create Square Function
 def square():
+    print("Square Step1")   
     while not rospy.is_shutdown():
+        print("Square2")
     #Draw First Line 
         mov()
+        print("square3")
     #Complete First Turn 
         rot()
     #Draw Second Line
