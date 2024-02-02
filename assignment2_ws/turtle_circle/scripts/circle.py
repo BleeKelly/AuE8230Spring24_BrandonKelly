@@ -11,14 +11,14 @@ def move():
 
         #Configuring Speed, both linear and angular
         #Linear Velocity
-        vel_msg.linear.x=10
+        vel_msg.linear.x=10#Sets speed...Arbitrarily chosen but relatively fast
         vel_msg.linear.y=0
         vel_msg.linear.z=0
         #Angular Velocity
         vel_msg.angular.x=0
         vel_msg.angular.y=0
-        vel_msg.angular.z=5#2D space
-        velocity_publisher.publish(vel_msg)
+        vel_msg.angular.z=5#Angle of turning for turtle. Arbitrarily chosen
+        velocity_publisher.publish(vel_msg)#publishes the message every loop
 
 if __name__ == "__main__":
     try:
