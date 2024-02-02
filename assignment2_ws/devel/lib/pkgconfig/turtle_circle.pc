@@ -1,8 +1,0 @@
-prefix=/home/brandon/AuE_8230/git_ws/AuE8230Spring24_BrandonKelly/assignment2_ws/devel
-
-Name: turtle_circle
-Description: Description of turtle_circle
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
