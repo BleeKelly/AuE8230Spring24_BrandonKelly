@@ -1,7 +1,9 @@
 # Assignment 2
-## Turtle_Circle
+## turtle_circle
 This code makes the turtlesim turtle do circles. 
-# Insert Gif HEre
+
+![turtle_circle](https://github.com/BleeKelly/AuE8230Spring24_BrandonKelly/assets/150833244/8dce209e-9183-407e-a01d-0e6dd244ede2)
+
 ### Installation
 To install this package first clone the repo. Then go to your Catkin workspace src folder and run the command 
 
@@ -25,7 +27,8 @@ roslaunch turtle_circle circle.launch
 
 ## turle_square_openloop
 This code makes the turtlesim turtle draw a 2-unit square at a speed of 0.2 unit linearly and 0.2 radian/sec on turns
-# Insert Gif HEre
+![turtle_square](https://github.com/BleeKelly/AuE8230Spring24_BrandonKelly/assets/150833244/c83d58be-1d7a-4622-84b8-83f935b30ab9)
+
 ### Installation
 To install this package first clone the repo. Then go to your Catkin workspace src folder and run the command 
 
