@@ -1,8 +1,4 @@
 <launch>
     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
-    <node pkg="lab2run" type="gotogoal.py" name="gotogoal">
-        <param name="x" value="10"/>
-        <param name="y" value="1"/>
-        <param name="tol" value="0.1"/>
-    </node>
+    <node pkg="turtle_square_openloop" type="square_openloop.py" name="square_openloop"/>
 </launch>
