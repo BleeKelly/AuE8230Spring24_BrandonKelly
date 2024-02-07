@@ -8,7 +8,7 @@ This code makes the turtlesim turtle do circles.
 To install this package first clone the repo. Then go to your Catkin workspace src folder and run the command 
 
 ```
-catkin_make_pkg turtle_circle geometry_msgs rospy
+catkin_create_pkg turtle_circle geometry_msgs rospy
 ```
 This will create a package workspace with the correct dependencies. You can then `cd` into the src folder and make directories for launch and script files using the command `mkdir launch scripts`.
 At this point, you will want to create symbolic links to the git repo you cloned to do this run the following commands(with the correct path for your setup)
@@ -33,7 +33,7 @@ This code makes the turtlesim turtle draw a 2-unit square at a speed of 0.2 unit
 To install this package first clone the repo. Then go to your Catkin workspace src folder and run the command 
 
 ```
-catkin_make_pkg turtle_square_openloop geometry_msgs rospy
+catkin_create_pkg turtle_square_openloop geometry_msgs rospy
 ```
 This will create a package workspace with the correct dependencies. You can then `cd` into the src folder and make directories for launch and script files using the command `mkdir launch scripts`.
 At this point, you will want to create symbolic links to the git repo you cloned to do this run the following commands(with the correct path for your setup)
